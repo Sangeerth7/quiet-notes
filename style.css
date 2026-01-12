@@ -8,49 +8,57 @@
   box-sizing: border-box;
 }
 
-/* ===== BODY BACKGROUND ===== */
 body {
-  min-height: 100vh;
   margin: 0;
-  padding: 0;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  font-family: 'Poppins', sans-serif;
-  background: radial-gradient(
-    circle at top,
-    #f6d5c3,
-    #e9bfa5,
-    #d9a88c
-  );
-  color: #3b2a2a;
-  line-height: 1.9;
-}
-
-
-/* ===== CENTER (PASSWORD PAGE) ===== */
-.center {
   min-height: 100vh;
+  background: #e7bfa8; /* dark cream */
+  font-family: 'Poppins', sans-serif;
+
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-/* ===== CARD (MAIN CONTAINER) ===== */
-.card {
-  position: relative;
-  background: rgba(255, 240, 225, 0.9);
-  padding: 55px 45px;
-  border-radius: 32px;
-  max-width: 450px;
+.page {
   width: 100%;
-  text-align: center;
-  margin: 60px auto;
-  box-shadow: 0 25px 50px rgba(0,0,0,0.15);
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
+
+.card {
+  background: #fdecdc;
+  width: 100%;
+  max-width: 420px;
+  padding: 30px 24px;
+  border-radius: 26px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.card h1 {
+  margin-top: 0;
+}
+
+input {
+  width: 100%;
+  padding: 14px 18px;
+  margin-top: 18px;
+  border-radius: 999px;
+  border: none;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 999px;
+  border: none;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #f5c542, #f0d36a);
+}
+
 
 /* ===== CLOUDS INSIDE CARD (VERY SOFT) ===== */
 .card::before {
