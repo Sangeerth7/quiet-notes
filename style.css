@@ -11,14 +11,13 @@
 /* ===== BODY BACKGROUND ===== */
 body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-body {
   margin: 0;
   padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   font-family: 'Poppins', sans-serif;
   background: radial-gradient(
     circle at top,
@@ -29,6 +28,7 @@ body {
   color: #3b2a2a;
   line-height: 1.9;
 }
+
 
 /* ===== CENTER (PASSWORD PAGE) ===== */
 .center {
